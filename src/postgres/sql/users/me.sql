@@ -1,0 +1,1 @@
+select id, email, first_name, last_name, role from users where id=${id}

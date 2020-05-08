@@ -1,0 +1,1 @@
+insert into listings (name, region, sort, owner, tonn, price) values (${name},${region},${sort},${owner},${tonn},${price}) RETURNING *;

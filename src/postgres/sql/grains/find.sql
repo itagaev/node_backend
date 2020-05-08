@@ -1,0 +1,1 @@
+select * from listings where id=${id}

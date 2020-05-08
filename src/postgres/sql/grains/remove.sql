@@ -1,0 +1,1 @@
+delete from listings where id = ${id} RETURNING *;

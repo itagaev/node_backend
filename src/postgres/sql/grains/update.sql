@@ -1,0 +1,1 @@
+update listings set (name, region, sort, owner, tonn, price) = (${name}, ${region}, ${sort}, ${owner}, ${tonn}, ${price}) where id=${id} RETURNING *;
